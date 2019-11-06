@@ -1,0 +1,176 @@
+.logo {
+    max-height: auto;
+    max-width: 40%;
+    opacity: 1;
+    animation: fade 2s ease-in-out forwards;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    opacity: 0;
+}
+
+
+@keyframes fade {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        transform: translate(-150%, -120%) scale(0.3);
+        opacity: 1
+    }
+}
+
+.lichaam {
+
+    max-width: 10%;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: fonsIn .5s ease-in-out 1.6s forwards;
+}
+
+@keyframes fonsIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+#random {
+    max-height: auto;
+    max-width: 14%;
+    position: absolute;
+    top: 87%;
+    left: 42.5%;
+    opacity: 0;
+    animation: fonsIn .5s ease-in-out 1.6s forwards;
+}
+
+* {
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#arrowright {
+    min-width: 10%;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    opacity: 0;
+    animation: fonsIn .5s ease-in-out 1.6s forwards;
+}
+
+#arrowleft {
+    min-width: 10%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    opacity: 0;
+    animation: fonsIn .5s ease-in-out 1.6s forwards;
+}
+
+#clothes {
+    display: flex;
+    ;
+    opacity: 0;
+    animation: fonsIn .5s ease-in-out 1.6s forwards;
+}
+
+.hats,
+.shirts,
+.pants,
+.shoes {
+    z-index: -2;
+
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+img[src="images/cap.svg"] {
+    max-width: 12%;
+    top: 22%;
+    left: 49.8%
+}
+
+
+img[src="images/hair.svg"] {
+    z-index: -4;
+    max-width: 16%;
+    top: 23.5%
+}
+
+img[ src="images/makeup.svg"] {
+    max-width: 16%;
+    top: 30%;
+}
+
+img[ src="images/pantalons.svg"] {
+    max-width: 10%;
+    top: 62%;
+}
+
+img[ src="images/pantsbrown.svg"] {
+    max-width: 8%;
+    top: 65.9%;
+}
+
+img[ src="images/shorts.svg"] {
+    max-width: 7%;
+
+}
+
+.hats {
+    top: 11.5vw;
+    max-width: 12%;
+}
+
+.shirts {
+    top: 48%;
+    max-width: 11%;
+}
+
+.pants {
+    z-index: -50;
+    top: 60%
+}
+
+.shoes {
+    z-index: -60;
+}
+
+img[ src="images/boots.svg"] {
+    max-height: 12%;
+    top: 80%
+}
+
+img[ src="images/redbottoms.svg"] {
+    max-height: 10%;
+    top: 80%;
+    left: 50.1%
+}
+
+img[ src="images/shoesreebok.svg"] {
+    max-height: 10%;
+    top: 79%;
+    ;
+    left: 49.9%;
+}
